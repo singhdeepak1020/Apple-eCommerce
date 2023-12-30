@@ -14,6 +14,7 @@
 html {
     width: 100%;
     font-size: 62.5%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -940,6 +941,10 @@ html {
     html {
         font-size: 40%;
     }
+    
+    .navbar {
+        right: 4%;
+    }
     .navbar-link {
         margin: 0 1.5rem;
     }
@@ -979,8 +984,12 @@ html {
             width: 1.8rem;
             height: 1.8rem;
         }
+        .section-1-banner h1 {
+            font-size: 7rem;
+        }
         .section-1-banner p {
             text-align: center;
+            letter-spacing: 0.2rem;
         }
 
         .iphones {
